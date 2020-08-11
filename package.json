@@ -4,9 +4,9 @@
   "description": "An FCC Backend Challenge",
   "main": "server.js",
   "scripts": {
-    "lint-cache": "eslint --cache *.js",
-    "lint": "eslint *.js",
-    "start": "node server.js"
+    "lint-cache": "eslint --cache src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "2.8.5",
